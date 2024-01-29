@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>카페뮤제오 갓볶은커피 사무실커피 추천세트 3kg (1kgx3)</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" rel="shortcut icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/sub.css" rel="stylesheet">    
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+    <script src="js/category.js"></script>
+    <script src="js/footer_info_list_slider.js"></script>
+</head>
+<body>
+    <!--헤더-->
+    <header>
+        <div id="header_box">
+            <div id="logo">
+                <a href="index.html" target="_self"><img src="img/logo.png" alt="로고"></a>
+            </div>
+            <div id="searchbar">
+                <input type="text" name="search" placeholder="비알레띠">
+                <a href="#"><img src="img/searchbar.png" alt="검색돋보기"></a>
+            </div>
+            <div id="header_icon">
+                <a href="#"><img src="img/heart.png" alt="찜"></a>
+                <a href="#"><img src="img/user.png" alt="개인정보"></a>
+                <a href="#"><img src="img/cart.png" alt="장바구니"></a>
+            </div>
+        </div>
+
+        <div id="header_gnb">
+            <nav>
+                <img src="img/menu.png" alt="전체카테고리" class="categ_all"> <span class="categ_all">카테고리</span>
+                <ul id="nav_top">
+                    <li><a href="sub.html" target="_self">베스트</a></li>
+                    <li><a href="sub.html" target="_self">신상품</a></li>
+                    <li><a href="sub.html" target="_self">뮤제OH!특가</a></li>
+                    <li><a href="sub.html" target="_self">커뮤니티</a></li>
+                    <li><a href="sub.html" target="_self">이벤트</a></li>
+                    <li><a href="sub.html" target="_self">브랜드</a></li>
+                </ul>
+            </nav>
+
+            <div id="login">
+                <ul id="login_ul">
+                    <li><a href="#">로그인</a></li>
+                    <li class="login_vert_line">|</li>
+                    <li><a href="#">회원가입</a></li>
+                    <li class="login_vert_line">|</li>
+                    <li><a href="#">고객문의</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="nav_slide_wrap">
+            <ul id="nav_slide">
+                <li class="nav_slide_title"> 커피 <span class="nav_slide_arrow"><a href="sub.html" target="_self">&gt;</a></span>
+                    <ul class="nav_slide_sub" id="nav_slide_sub_01">
+                        <li><a href="#">스페셜티커피</a><li>
+                        <li><a href="#">뮤제오블렌드</a><li>
+                        <li><a href="#">싱글오리진</a><li>
+                        <li><a href="#">아프리카</a><li>
+                        <li><a href="#">아시아/태평양</a><li>
+                        <li><a href="#">중남미</a><li>
+                        <li><a href="#">디카페인</a><li>
+                        <li><a href="#">추천세트</a><li>
+                        <li><a href="#">카뮤 드립백</a><li>
+                        <li><a href="#">카뮤 티백</a><li>
+                        <li><a href="#">카뮤 캡슐</a><li>
+                        <li><a href="#">카뮤 선물세트</a><li>
+                        <li><a href="#">브랜드커피</a><li>
+                    </ul>
+                </a><li>
+
+                <li class="nav_slide_title"> 생두 <span class="nav_slide_arrow"><a href="sub.html" target="_self">&gt;</a></span>
+                    <ul class="nav_slide_sub" id="nav_slide_sub_02">
+                        <li><a href="#">아프리카</a><li>
+                        <li><a href="#">중남미</a><li>
+                        <li><a href="#">아시아 외</a><li>
+                        <li><a href="#">디카페인</a><li>
+                        <li><a href="#">뮤제오셀렉션</a><li>
+                        <li><a href="#">생두자루/트레이</a><li>
+                        <li><a href="#">커피봉투/스티커/기타</a><li>
+                    </ul>
+                </a><li>
+
+                <li class="nav_slide_title"> 핸드드립 <span class="nav_slide_arrow"><a href="sub.html" target="_self">&gt;</a></span>
+                    <ul class="nav_slide_sub" id="nav_slide_sub_03">
+                        <li><a href="#">드립세트</a><li>
+                        <li><a href="#">드리퍼</a><li>
+                        <li><a href="#">여과지</a><li>
+                        <li><a href="#">드립서버</a><li>
+                        <li><a href="#">드립포트</a><li>
+                        <li><a href="#">핸드밀</a><li>
+                        <li><a href="#">전동 핸드밀</a><li>
+                        <li><a href="#">드립/드립백 거치대</a><li>
+                        <li><a href="#">더치/워터드립</a><li>
+                    </ul>
+                </a><li>
+
+                <li class="nav_slide_title"> 커피추출용품 <span class="nav_slide_arrow"><a href="sub.html" target="_self">&gt;</a></span>
+                    <ul class="nav_slide_sub" id="nav_slide_sub_04">
+                        <li><a href="#">포카포트</a><li>
+                        <li><a href="#">아웃도어용 추출기</a><li>
+                        <li><a href="#">에어로프레스</a><li>
+                        <li><a href="#">프렌치프레스</a><li>
+                        <li><a href="#">침출식</a><li>
+                        <li><a href="#">사이폰</a><li>
+                        <li><a href="#">소모품/부품</a><li>
+                        <li><a href="#">가스켓</a><li>
+                        <li><a href="#">그 외</a><li>
+                    </ul>
+                </a><li>
+
+                <li class="nav_slide_title"> 잔/텀블러 <span class="nav_slide_arrow"><a href="sub.html" target="_self">&gt;</a></span>
+                    <ul class="nav_slide_sub" id="nav_slide_sub_05">
+                        <li><a href="#">에스프레소잔</a><li>
+                        <li><a href="#">카푸치노잔</a><li>
+                        <li><a href="#">카페라떼잔</a><li>
+                        <li><a href="#">찻잔</a><li>
+                        <li><a href="#">머그잔</a><li>
+                        <li><a href="#">유리컵</a><li>
+                        <li><a href="#">와인/고블렛잔</a><li>
+                        <li><a href="#">리유저블컵</a><li>
+                        <li><a href="#">보온보냉 텀블러</a><li>
+                        <li><a href="#">기타 잔</a><li>
+                    </ul>
+                </a><li>
+
+                <li class="nav_slide_title"> 바리스타/카페용품 <span class="nav_slide_arrow"><a href="sub.html" target="_self">&gt;</a></span>
+                    <ul class="nav_slide_sub" id="nav_slide_sub_06">
+                        <li><a href="#">탬퍼</a><li>
+                        <li><a href="#">머신 액세서리</a><li>
+                        <li><a href="#">머신 클리너</a><li>
+                        <li><a href="#">스팀피처</a><li>
+                        <li><a href="#">진동벨</a><li>
+                        <li><a href="#">도서</a><li>
+
+                    </ul>
+                </li>
+            </ul>
+            <img src="img/cancel.png" alt="닫기" class="icon_cancel">
+        </div>
+
+    </header>
+
+    <!--서브 섹션 시작-->
+    
+    <section>
+        <!--서브 메인 -->
+        <div id="sub_content">
+            <div id="sub_main_img_top_left">
+                <!--이미지 전환 나중에 자바로 할 것-->
+                <div class="imgbox">
+                <img src="img/sub_main_img_01.jpg" alt="sub_main_img_01">
+                </div>
+                <div class="sub_img_select">
+                    <ul>
+                        <li><button type="button" value="sub_main_img_01"><img src="img/sub_main_img_01.jpg" alt=""></button></li>
+                        <li><button type="button" value="sub_main_img_02"><img src="img/sub_main_img_02.jpg" alt=""></button></li>
+                        <li><button type="button" value="sub_main_img_03"><img src="img/sub_main_img_03.jpg" alt=""></button></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="sub_main_top_right">
+                <h1>갓볶은커피 사무실커피 추천세트 3kg (1kgx3)</h1>
+                <span>66,500원</span>
+                <p>210,000원</p>
+                <table id="sub_main_deliver" >
+                    <tr>
+                        <th>배송비</th>
+                        <td>
+                            택배 0원 / 주문시결제(선결제)
+                            <input type="button" name="deliver_pay" value="조건별배송">
+                            <input type="button" name="deliver_location" value="지역별추가배송비">
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>상품코드</th>
+                        <td>25681</td>
+                    </tr>
+                </table>
+                <div id="sub_main_option">
+                    <dl>
+                        <dt>옵션</dt>
+                        <dd>
+                            <select name="option" id="sub_main_item_option">
+                                
+                                <option value="=옵션 : 가격 : 재고=">=옵션 : 가격 : 재고=</option>
+                                <option value="원두상태(분쇄안함)">원두상태(분쇄안함)</option>
+                                <option value="드립용 분쇄(커피메이커겸용) ">드립용 분쇄(커피메이커겸용) </option>
+                                <option value="모카포트용 분쇄">모카포트용 분쇄</option>
+                                <option value="에스프레소머신용 분쇄">에스프레소머신용 분쇄</option>
+                                <option value="프렌치프레스용 분쇄">프렌치프레스용 분쇄</option>
+                                <option value="더치용 분쇄">더치용 분쇄</option>
+                            </select>
+                        </dd>
+                    </dl>
+                    <div id="sub_main_item_cart">
+                        <span id="cart_tit">원두상태(분쇄안함) (0원)</span>
+                        <button type="button" class="cancel_btn"><img src="img/ico_cart_del.png" alt=""></button>
+                        <div id="count_box">
+                            <button type="button" style="background-image: url(img/btn_count_down.png);"></button>
+                            <input type="text" name="goodscount 1" value="1" class="goodscount_text">
+                            <button type="button" style="background-image: url(img/btn_count_up.png);"></button>
+                        </div>
+                        <div class="item_choice_price"> <strong>66,500</strong> 원 </div>
+                    </div>
+                </div>
+                <div id="sub_main_sum">
+                    <div id="sum_item_box">
+                        <p>총 상품금액</p>
+                        <span class="sum_item">66,500원</span>
+                    </div>
+                    <div id="sum_total_box">
+                        <h3>총 합계금액</h3>
+                        <span class="sum_total">66,500원</span>
+                    </div>
+                </div>
+                <div id="sub_main_btn">
+                    <button class="btn_icon"><img src="img/ico_goods_share.png" alt=""></button>
+                    <button class="btn_icon"><img src="img/heart.png" alt=""></button>
+                    <button class="btn_cart">장바구니</button>
+                    <button class="btn_purchase">바로 구매</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 네비 목록 -->
+        <div id="sub_nav">
+            <ul class="sub_nav_ul">
+                <a href="#sub_item_info" target="_self"><li>상품정보</li></a>
+                <a href="#sub_item_mustknown" target="_self"><li >상품필수정보</li></a>
+                <a href="#sub_item_deliver" target="_self"><li >배송/교환/반품 안내</li></a>
+                <a href="#sub_item_review" target="_self"><li >상품후기 (19)</li></a>
+                <a href="#sub_item_request" target="_self"><li >상품문의 (1)</li></a>
+            </ul>
+        </div>
+
+        <!--상품정보 이미지 나열-->
+        <div id="sub_item_info">
+            <h3>여러 사람들과 함께하는 공간, 사무실용 탕비실 맞춤 추천 세트 입니다.</h3>
+            <img src="img/sub_info_01.jpg" alt="">
+            <img src="img/sub_info_02.jpg" alt="">
+            <img src="img/sub_info_03.jpg" alt="">
+            <img src="img/sub_info_04.jpg" alt="">
+            <img src="img/sub_info_05.jpg" alt="">
+            <img src="img/sub_info_06.jpg" alt="">
+            <img src="img/sub_info_07.jpg" alt="">
+            <img src="img/sub_info_08.jpg" alt="">
+            <img src="img/sub_info_09.jpg" alt="">
+        </div>
+
+        <!--상품필수정보 table-->
+        <div id="sub_item_mustknown">
+            <h1>상품필수 정보</h1>
+            <table>
+                <tr>
+                    <th class="mustknown_th">식품의 유형</th>
+                    <td class="mustknown_td">볶은커피</td>
+                    <th class="mustknown_th">생산자 소재지 수입자</th>
+                    <td class="mustknown_td">(주)뮤제오 / 대한민국</td>
+                </tr>
+                <tr>
+                    <th class="mustknown_th">유통기한/품질유지기한</th>
+                    <td class="mustknown_td">제조일로부터 1년</td>
+                    <th class="mustknown_th">용량/수량(포장단위별)</th>
+                    <td class="mustknown_td">1kg / 3p</td>
+                </tr>
+                <tr>
+                    <th class="mustknown_th">원재료명 및 함량</th>
+                    <td class="mustknown_td">아라비카종 원두커피100%</td>
+                    <th class="mustknown_th">영양성분</th>
+                    <td class="mustknown_td">해당없음</td>
+                </tr>
+                <tr>
+                    <th class="mustknown_th">유전자 재조합 유무</th>
+                    <td class="mustknown_td">해당없음</td>
+                    <th class="mustknown_th">표시광고 심의 유무</th>
+                    <td class="mustknown_td">해당없음</td>
+                </tr>
+                <tr>
+                    <th class="mustknown_th">수입식품 유무</th>
+                    <td class="mustknown_td">해당없음</td>
+                    <th class="mustknown_th">소비자상담 전화번호</th>
+                    <td class="mustknown_td">㈜뮤제오/ 1533-0918</td>
+                </tr>
+            </table>
+        </div>
+
+        <!--배송/교환/반품안내 시작-->
+        <!--배송 안내-->
+        <div id="sub_item_deliver">
+            <h1 class="sub_shipping_h1">배송안내</h1>
+            <h3 class="sub_shipping_h3">1.배송기간 </h3>
+            <p class="sub_shipping_p">-결제 완료 후 수령까지 약 1~3일 소요됩니다. <br>
+
+                -평일(월~금)기준으로 <span style="color: red; font-weight: bold;">오후 4시 이전까지</span> 결제하시면 당일출고 됩니다.<br>
+                
+                -업체 직배송 상품의 경우 <span style="color: red; font-weight: bold;">카페뮤제오 배송 상품과 별도 출고되며, 배송이 길어질 수 있습니다.</span><br>
+                
+                -지역에 따라 배송기간이 상이할 수 있습니다.<br>
+                
+                -천재지변, 물량 수급 변동 등 예외적인 사유 발생 시 다소 지연될 수 있는 점 양해 부탁드립니다.</p> <br>
+
+            <h3 class="sub_shipping_h3">2.배송비용</h3>
+            <p class="sub_shipping_p">-기본 배송비는 2,500원이며 30,000원 이상 주문 시 무료배송 됩니다.<br>
+
+                -3만원 이상 주문시에도 해당 지역은 추가 배송비가 발생합니다. [제주도: 3,000원 / 도서산간: 5,000원]<br>
+                
+                -제품의 불량/하자 또는 표시되는 광고 및 계약 내용과 다른 경우 해당 상품의 회수(배송)비용은무료이나, <br>
+                
+                 고객님의 단순 변심에 의한 교환/반품일 경우 택배비는 고객님 부담입니다.<br>
+                
+                   반품 배송비: 2,500원(최초 배송비가 무료인 경우 5,000원 부과), <span style="color: red; font-weight: bold;">박스 수가 2개 이상일 경우 박스당 5,000원 부과</span><br>
+                
+                   교환 배송비: 5,000원<br>
+                
+                *구매시 선택한 옵션과 수량, 업체 직배송 또는 프로모션 적용 여부에 따라 반품/교환 배송비가 변경될 수 있습니다.</p> <br>
+
+            <h3 class="sub_shipping_h3">3.오배송 방지를 위한 CCTV 녹화중</h3>
+            <p class="sub_shipping_p">카페뮤제오 물류센터에서는 오배송 및 배송사고를 최소화하고 미연에 방지하기 위해 CCTV녹화를 도입, 운영하고 있습니다. <br>
+
+                상품 포장 전 과정이 녹화되며 사고 발생시 조회에 활용됩니다.</p>
+        </div>
+    <!--교환 및 반품 안내-->
+        <div id="sub_item_exchange">
+            <h1 class="sub_shipping_h1">교환 및 반품안내</h1>
+            <h3 class="sub_shipping_h3">1.교환/반품이 가능한 경우</h3>
+            <p class="sub_shipping_p">-발송일로부터 7일 이내 교환/반품 가능합니다. <br>
+
+                -상품불량, 오배송 시 상품 출고일로부터 15일 이내 교환/반품 가능합니다. <br>
+                
+                *수령 후 빠른 시일내에 상품 상태 확인을 부탁드립니다.</p> <br>
+
+            <h3 class="sub_shipping_h3">2.교환/반품이 불가한 경우</h3>
+            <p class="sub_shipping_p">-신선식품(갓 볶은 커피 및 냉장/냉동)을 단순 변심/주문착오로 교환/반품 신청한 경우 <br>
+
+                -사용하거나 포장이 훼손되어 상품가치가 훼손된 경우 (단, 제품의 내용을 확인하기 위해 봉인 스티커를 훼손한 경우는 제외.) <br>
+                
+                -시간 경과에 따라 상품의 가치가 현저히 감소하여 재판매가 불가능한 경우 <br>
+                
+                -고객님의 요청에 따라 개별적으로 주문 제작되는 상품으로 재판매가 불가능한 경우(이니셜 표시상품, 사이즈 맞춤상품 등) <br>
+                
+                -구매한 상품의 구성품이 누락된 경우(세트상품의 일부의 멸실 혹은 훼손, 부속품, 증정품)</p> <br>
+
+            <h3 class="sub_shipping_h3">3.택배 반품 시 이중포장 안내</h3>
+            <p class="sub_shipping_p">-본품 박스에 송장을 붙이면 패키지가 훼손되어 재판매가 불가능함으로 반품이 불가 합니다. 반드시 택배용 박스에 담아서 보내주세요. <br>
+
+                <span style="color: red; font-weight: bold;">-운송과정 중 파손 가능성이 높은 유리/도자기 재질의 경우 완충재를 이용하여 파손되지 않도록 포장해 주세요. <br>
+                
+                 파손사고 접수 시, 포장 상태에 따라 파손될 가능성이 높다 판단될 경우 <br>
+                
+                 택배 회사는 손해배상책임을 지지 않을 수 있으므로 반드시 완충 포장을 요청드립니다.</span> </p>
+        </div>
+        <!--환불 안내-->
+        <div id="sub_item_refund">
+            <h1 class="sub_shipping_h1">환불안내</h1>
+            <h3 class="sub_shipping_h3">재화등의 교환∙반품∙보증과 그 대금 환불 및 환불의 지연에 따른 배상금 지급의 조건 및 절차 </h3>
+            <p class="sub_shipping_p">‘전자상거래등에서의소비자보호에관한법률’이 정하는 바에 따라 소비자의 청약철회 후 판매자가 재화 등을 반환 받은 날로부터 <br>
+
+                3영업일 이내에 지급 받은 대금의 환급을 정당한 사유 없이 지연하는 때에는 소비자는 지연기간에 대해서 <br>
+                
+                위 법률의 시행령으로 정하는 이율을 곱하여 산정한 지연이자(지연배상금)을 신청할 수 있습니다.</p>
+        </div>
+        <!--AS 안내-->
+        <div id="sub_item_as">
+            <h1 class="sub_shipping_h1">AS안내</h1>
+            <p class="sub_shipping_p">-업체 직배송 상품의 경우 통신판매중개자인 카페뮤제오는 제조사의 과실로 인한 손해배상책임을 지지 않습니다. <br>
+
+                제품 사용 상 불만과 피해보상에 관하여는 제조사 혹은 수입사 에 문의하여 주시기 바랍니다. <br>
+               
+                당사 고객센터로 문의 주시면 ‘공정거래위원회 소비자 분쟁해결기준’ 및 관계법령에 준하여 문제 해결에 도움을 드리겠습니다. <br>
+               
+                <br>
+               
+               *자세한 내용은 카페뮤제오로 문의 부탁드립니다. (홈페이지 내 게시판 및 전화 1533-0918) <br>
+               
+               *전자상거래 등에서의 소비자 보호에 관한 법률에 의한 반품규정이 판매자가 상품상세 페이지 등에서 개별적으로 고지 <br>
+               
+                또는 지정한 반품 조건보다 우선합니다. <br>
+               
+               *거래에 관한 약관은 당사 이용약관에서 확인하실 수 있습니다. <br>
+               
+               *전자상거래 등에서의 소비자보호법에 관한 법률에 의거하여 미성년자가 체결한 계약은 법정대리인이 동의하지 않은 경우 <br>
+               
+                본인 또는 법정대리인이 취소할 수 있습니다. </p>
+        </div>
+    <!--배송/교환/반품안내 끝-->
+
+    <!--상품후기-->
+        <div id="sub_item_review">
+            <h1 class="sub_review_h1">상품후기</h1>
+            <div id="btn_review_box"> <a href="#">상품후기 글쓰기</a></div>
+            <div id="review_content">
+                <table>
+                    <tr class="review_table_tr_top">
+                        <td >
+                            <span id="rating_star" >
+                                
+                            </span>
+                            <a href="#" id="review_text">
+                                탕비실에 빠질 수 없는 제품입니다요~
+                            </a>
+                            <div id="write_info">
+                                네이버페이 구매자  2023.07.30
+                            </div>
+                        </td>
+                        <td style="width: 10%;" >
+                            <button type="button" class="btn_view_more">
+                                <span>더보기 </span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr class="review_table_tr">
+                        <td>
+                            <span id="rating_star">
+
+                            </span> 
+                            <a href="#" id="review_text">
+                                몇년째 계속 주문해서 먹는데 갓 볶은커피를 받을 수 있...
+                            </a> 
+                            <div id="write_info">
+                                네이버페이 구매자  2023.07.20
+                            </div>
+                        </td>
+                        <td>
+                            <button type="button" class="btn_view_more">
+                                <span>더보기 </span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr class="review_table_tr">
+                        <td>
+                            <span id="rating_star">
+
+                            </span> 
+                            <a href="#" id="review_text">
+                                지인 추천으로 구입했는데 아직 먹어보지는못했네요 믿고 구입한거니 맛있겠죠
+                            </a> 
+                            <div id="write_info">
+                                네이버페이 구매자  2023.07.18
+                            </div>
+                        </td>
+                        <td>
+                            <button type="button" class="btn_view_more">
+                                <span>더보기 </span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr class="review_table_tr">
+                        <td>
+                            <span id="rating_star">
+
+                            </span> 
+                            <a href="#" id="review_text">
+                                친구의 추천으로 구입했는데, 아주 맛있게 잘 먹고 있어...
+                            </a> 
+                            <div id="write_info">
+                                네이버페이 구매자  2023.07.18
+                            </div>
+                        </td>
+                        <td>
+                            <button type="button" class="btn_view_more">
+                                <span>더보기 </span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr class="review_table_tr">
+                        <td>
+                            <span id="rating_star">
+
+                            </span> 
+                            <a href="#" id="review_text">
+                                몇년째 애용하는 커피맛집입니다~ 
+                            </a> 
+                            <div id="write_info">
+                                네이버페이 구매자  2023.07.10
+                            </div>
+                        </td>
+                        <td>
+                            <button type="button" class="btn_view_more">
+                                <span>더보기 </span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr class="review_table_tr">
+                        <td>
+                            <span id="rating_star">
+
+                            </span> 
+                            <a href="#" id="review_text">
+                                배송도 빠르고 저렴한 가격에 좋은 품질에 감동했어요 맛...
+                            </a> 
+                            <div id="write_info">
+                                네이버페이 구매자  2023.07.09
+                            </div>
+                        </td>
+                        <td>
+                            <button type="button" class="btn_view_more">
+                                <span>더보기 </span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr class="review_table_tr">
+                        <td>
+                            <span id="rating_star">
+
+                            </span> 
+                            <a href="#" id="review_text">
+                                포장이 지퍼백이라 너무 좋아요
+                            </a> 
+                            <div id="write_info">
+                                네이버페이 구매자  2023.07.07
+                            </div>
+                        </td>
+                        <td>
+                            <button type="button" class="btn_view_more">
+                                <span>더보기 </span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr class="review_table_tr">
+                        <td>
+                            <span id="rating_star">
+
+                            </span> 
+                            <a href="#" id="review_text">
+                                빠른 배송 감사합니다 잘 먹을게요
+                            </a> 
+                            <div id="write_info">
+                                네이버페이 구매자  2023.06.30
+                            </div>
+                        </td>
+                        <td>
+                            <button type="button" class="btn_view_more">
+                                <span>더보기 </span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr class="review_table_tr">
+                        <td>
+                            <span id="rating_star">
+
+                            </span> 
+                            <a href="#" id="review_text">
+                                배송도 빠르고 맛있습니다.
+                            </a> 
+                            <div id="write_info">
+                                네이버페이 구매자  2023.06.23
+                            </div>
+                        </td>
+                        <td>
+                            <button type="button" class="btn_view_more">
+                                <span>더보기 </span>
+                            </button>
+                        </td>
+                    </tr>
+                    <tr class="review_table_tr">
+                        <td>
+                            <span id="rating_star">
+
+                            </span> 
+                            <a href="#" id="review_text">
+                                사무실 사람들도 맛있다고 하네요 잘먹겠습니다 ^^
+                            </a> 
+                            <div id="write_info">
+                                네이버페이 구매자  2023.06.23
+                            </div>
+                        </td>
+                        <td>
+                            <button type="button" class="btn_view_more">
+                                <span>더보기 </span>
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="pagnation">
+                <ul class="pag_ul">
+                    <li class="pagnation_select">1</li>
+                    <li class="pagnation_nonselect"><a href="#">2</a></li>
+                </ul>
+            </div>
+        </div>
+
+    <!--상품문의-->
+    <div id="sub_item_request">
+        <h1 class="sub_review_h1">상품문의</h1>
+        <div id="btn_review_box"> <a href="#">상품문의 글쓰기</a></div>
+        <div id="request_content">
+            <table>
+                <tr class="request_table_tr_top">
+                    <th style="width: 8%;">번호</th>
+                    <th>제목</th>
+                    <th style="width: 12%;">작성자</th>
+                    <th style="width: 12%;">작성일</th>
+                    <th style="width: 12%;">진행상황</th>
+                </tr>
+                <tr class="request_table_tr">
+                    <td>1</td>
+                    <td> <a href="#">배송 문의드립니다.</a></td>
+                    <td>sis061</td>
+                    <td>2023.07.15</td>
+                    <td><span class="btn_request_done">답변완료</span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="pagnation">
+            <ul class="pag_ul">
+                <li class="pagnation_select">1</li>
+            </ul>
+        </div>
+    </div>
+    </section>
+
+
+    <!--푸터-->
+    <footer>
+        <div id="footer_info">
+            <div id="info_box">
+                <h3>NOTICE</h3>
+                <div class="info_list_wrap">
+                    <ul id="info_list">
+                        <!--리스트 이동 나중에 자바로 만들기-->
+                        <li><a href="#">카페뮤제오 휴무 공지(5월)</a></li>
+                        <li><a href="#">2024 설 연휴 배송 공지 </a></li>
+                        <li><a href="#">4월 25일(화) 고객 상담시간 변경 안내</a></li>
+                    </ul>
+                </div>
+                <a href="#">더보기 <span style="font-weight: bold;">></span></a>
+            </div>
+        </div>
+        <div id="footer_content">
+            <div id="footer_contentbox">
+                <a href="#"><img src="img/logo_footer.png" alt=""></a>
+                <div id="footer_icon">
+                    <a href="#"><img src="img/ico_foot_link01.png" alt=""></a>
+                    <a href="#"><img src="img/ico_foot_link02.png" alt=""></a>
+                    <a href="#"><img src="img/ico_foot_link03.png" alt=""></a>
+                    <a href="#"><img src="img/ico_foot_link04.png" alt=""></a>
+                    <a href="#"><img src="img/ico_foot_link05.png" alt=""></a>
+                </div>
+                <div id="footer_nav">
+                    <ul>
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">사업소개</a></li>
+                        <li><a href="#">카뮤인채용</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">업체상담</a></li>
+                    </ul>
+                </div>
+                <div id="footer_text">
+                    <span>빨리 가기보다는 조금 늦더라도 멀리 보겠습니다. 신뢰를 바탕으로 실력을 쌓아갑니다.</span>
+
+                    <p>(주)뮤제오 | 대표:서동의 <br>
+                        본사 : 서울특별시 성동구 연무장5가길 25 (성수역 SK V1 Tower) 1110~1112호 <br>
+                        로스팅, 물류센터:경기도 용인시 처인구 경안천로 256번길 69 <br>
+                        통신판매업신고번호:2021-서울성동-01241 | 개인정보보호책임자:최동환 <br>
+                        사업자등록번호:117-81-58115 <br>
+                        이메일:mail@museo.co.kr | 사업자,대량주문:sale@museo.co.kr <br>
+                        팩스:02-2607-0129 <br>
+                        Copyrightⓒ2002-2022 MUSEO Corp. All RIGHTS RESERVED
+                    </p>
+                </div>
+                <div id="footer_customer">
+                    <h5>고객문의</h5>
+                    <img src="img/phone.png" alt="">
+                    <strong>1533-0918</strong>
+                    <p>AM 9:30 ~ PM 5:30 토, 일, 공휴일 휴무 <br>
+                        점심시간 PM 12:00 ~ PM 1:00</p>
+                    <span>FAQ</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
